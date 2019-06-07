@@ -23,10 +23,10 @@
 	    } else if (favoriteVacation === "mountians" && favoriteCusine === "exotic" && favoriteAccomodations === "all inclusive" && favoriteApproach === "demonstration" && favoriteRandom === "i am the life of the party")) {
         $('#java').show();
         $('#ruby, #c++, #python, #no-match').hide();
-	    } else if (favoriteVacation === "dessert" && favoriteCusine === "traditional" &&favoriteAccomodations === "hotel" && favoriteApproach === "online" && favoriteRandom === "i never give up on true love")) {
+	    } else if (favoriteVacation === "dessert" && favoriteCusine === "traditional" && favoriteAccomodations === "hotel" && favoriteApproach === "online" && favoriteRandom === "i never give up on true love")) {
         $('#c++').show();
         $('#java, #ruby, #python, #no-match').hide();
-	    } else if (favoriteVacation === "stacation" && favoriteCusine === "meat & taters" &&favoriteAccomodations === "tent" && favoriteApproach === "classroom" && favoriteRandom === "i will be rich some day")) {
+	    } else if (favoriteVacation === "stacation" && favoriteCusine === "meat & taters" && favoriteAccomodations === "tent" && favoriteApproach === "classroom" && favoriteRandom === "i will be rich some day")) {
         $('#python').show();
         $('#java, #c++, #ruby, #no-match').hide();
 	    } else {
