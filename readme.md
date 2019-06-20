@@ -3,7 +3,8 @@
 #### _Website desiged to inform prospective students of what language to choose, 6.7.2019_
 
 #### By _**Kirsten Carmer Putman**_
-
+kcramer53.github.io/testing/index.html
+https://github.com/kcramer53/testing.git
 
 ## Description
 
