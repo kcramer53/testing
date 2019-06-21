@@ -1,14 +1,5 @@
-// Backend logic
-
-
-
-
-
-
-	// UI logic
-
-
-	$(document).ready(function() {
+// business logic
+$(document).ready(function() {
 		// when user submitsm it will determine what is inputted and outputted
 	  $("form").submit(function(event) {
 			//next few lines will gather and save into variable whatever the user inputs
@@ -24,8 +15,7 @@
 			console.log("favoriteApproach " + favoriteApproach);
 	    var favoriteRandom = $("input:radio[name=random]:checked").val();
 			console.log("favoriteApproach " + favoriteApproach);
-
-
+// user interface logic
 //these ifs evaluate the users input to determine what to display
 	    if (favoriteVacation === "tropics" && favoriteCusine === "seafood" && favoriteAccomodations === "youth hostel" && favoriteApproach === "visual concept" && favoriteRandom === "i am always on time") {
 	      $('#ruby').show();
@@ -43,8 +33,8 @@
         $('#no-match').show();
         $('#java, #cplusplus, #python, #ruby').hide();
 	    }
-
 //this prevents refresh after submit is clicked
 	  event.preventDefault();
 	  });
 	});
+
